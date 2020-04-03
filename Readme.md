@@ -1,9 +1,6 @@
-The assignment questions are given below. You can find any files you need in this repo. Please push your answers to the version of this repo that was created when you accepted the classroom invite on Github classroom. You can either submit one file for each, or a single file that contains all the answers (either a pdf or a .md file, complete with images). The deadline is April 27th.
+The assignment questions are given below. There are three parts. You can find any files you need in this repo. Please push your answers to the version of this repo that was created when you accepted the classroom invite on Github classroom. You can either submit one file for each, or a single file that contains all the answers (either a pdf or a .md file, complete with images). The deadline is April 27th.
 
 As an aside, this .md file was created using a nice github app called TeXify (https://github.com/apps/texify), a GitHub app that looks in your pushes for files with extension *.tex.md and turns them into rendered .md files.
-
-## Assignment4
-There are two parts to assignment 4. Please upload your answers to your clone of this repo.
 
 ### Here is part 1 of the assignment:
 
@@ -26,3 +23,20 @@ We are now doing importance sampling, so if you accept the value of <img src="/t
 Remember to truncate the expo at 20, to match the domain of the prior dsistribution <img src="/tex/f30fdded685c83b0e7b446aa9c9aa120.svg?invert_in_darkmode&sanitize=true" align=middle width=9.96010619999999pt height=14.15524440000002pt/> (and to allow for thius when you evaluate <img src="/tex/33086d7b21850b2bcc7ceffa0a69980a.svg?invert_in_darkmode&sanitize=true" align=middle width=36.86842334999999pt height=24.7161288pt/>.
 
 Compare the efficiency of this algorithm to that pf the pure rejection method you used in part 1. (How many iterations are required to get 1000 accepted values, say?)
+
+Many tissues contain 2 (or more) cell-types.
+
+## Here is part 3 of the assignment:
+
+Many tissues contain 2 (or more) cell-types. An investigator wants a way of testing whether each of 2 cell types in a given tissue is homogeneously distributed (in space). So:
+
+<img src="/tex/30074edb23bec8e7c47c584ff885e5b5.svg?invert_in_darkmode&sanitize=true" align=middle width=20.21695004999999pt height=22.465723500000017pt/>: cell types are homogeneously (randomly) arranged
+<img src="/tex/208fbcc5ce29722c2f701868ac31fc3c.svg?invert_in_darkmode&sanitize=true" align=middle width=20.21695004999999pt height=22.465723500000017pt/>: cell types are not homogeneously arranged (i.e. they are clustered in some fashion).
+
+Your job is to come up with such a test, using Monte Carlo methods.
+
+1. Formulate your test.
+
+2. Apply it to each of Grid1, Grid2, Grid3 and determine a p-value for rejecting the <img src="/tex/30074edb23bec8e7c47c584ff885e5b5.svg?invert_in_darkmode&sanitize=true" align=middle width=20.21695004999999pt height=22.465723500000017pt/> in favor of <img src="/tex/208fbcc5ce29722c2f701868ac31fc3c.svg?invert_in_darkmode&sanitize=true" align=middle width=20.21695004999999pt height=22.465723500000017pt/>.
+
+3. Write-up your test (i.e. Methods) and your Results as an Markdown file.
