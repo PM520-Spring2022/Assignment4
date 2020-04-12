@@ -10,7 +10,8 @@ Draw balls until you have 10 non-black balls. Implement the rejection method to 
 
 Assuming a Uniform[0,20] prior for the weight of the black ball, if all non-black balls are the same color at the end, what is the posterior distribution of the weight of the black ball?
 
-Assuming a Uniform[0,20] prior for the weight of the black ball, if there are exactly two non-black balls are the same color at the end, what is the posterior distribution of the weight of the black ball?
+Assuming a Uniform[0,20] prior for the weight of the black ball, if we observe exactly 2 non-black colors at the end, what is the posterior distribution of the weight of the black ball?
+
 
 ## Here is part 2 of the assignment:
 
