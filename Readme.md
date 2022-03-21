@@ -1,4 +1,4 @@
-The assignment questions are given below. There are three parts. You can find any files you need in this repo. Please push your answers to the version of this repo that was created when you accepted the classroom invite on Github classroom. You can either submit one file for each, or a single file that contains all the answers (either a pdf or a .md file, complete with images). The deadline is April 27th.
+The assignment questions are given below. There are three parts. You can find any files you need in this repo. Please push your answers to the version of this repo that was created when you accepted the classroom invite on Github classroom. You can either submit one file for each, or a single file that contains all the answers (either a pdf or a .md file, complete with images). The deadline is April 29th.
 
 As an aside, this .md file was created using a nice github app called TeXify (https://github.com/apps/texify), a GitHub app that looks in your pushes for files with extension *.tex.md and turns them into rendered .md files.
 
